@@ -6,6 +6,6 @@ export const initSocket = async () => {
     timeout: 10000,
     transports: ["websocket"],
   };
-  const backendUrl = "https://code-bridge-plum.vercel.app/";
+  const backendUrl = "http://localhost:4000";
   return io(backendUrl, options);
 };
