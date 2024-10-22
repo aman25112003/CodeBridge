@@ -1,0 +1,181 @@
+.homePageWrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.formWrapper {
+  background: #151d29;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover .aman {
+  color: #1d92ec;
+}
+
+footer a:hover .singh {
+  color: #fd3f6f;
+}
+
+.aman {
+  color: #fd3f6f;
+}
+
+.singh {
+  color: #1d92ec;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainlabel {
+  margin-bottom: 20px;
+  margin-left: 100px;
+  margin-top: 0;
+}
+
+.homePageLogo {
+  height: 100px;
+  width: 200px;
+  margin-bottom: 30px;
+  margin-left: 100px;
+}
+
+.inputBox {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 14px;
+  background: #eee;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(0.95);
+}
+
+.joinBtn {
+  background: #fed709;
+  width: 100px;
+  margin-left: auto;
+}
+
+.createInfo {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.createNewBtn {
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.createNewBtn:hover .new {
+  color: #1d92ec;
+  border-bottom: 1px solid #1d92ec;
+}
+
+.createNewBtn:hover .room {
+  color: #fd3f6f;
+  border-bottom: 1px solid #fd3f6f;
+}
+
+.new {
+  color: #fd3f6f;
+  border-bottom: 1px solid #fd3f6f;
+}
+
+.room {
+  color: #1d92ec;
+  border-bottom: 1px solid #1d92ec;
+}
+
+.mainWrap {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  height: 100vh;
+}
+
+.aside {
+  background: #151d29;
+  padding: 16px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.asideInner {
+  flex: 1;
+}
+
+.asideInner h3 {
+  color: #07f984;
+}
+
+.clientsList {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.client {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.userName {
+  margin-top: 10px;
+}
+
+.logo {
+  border-bottom: 1px solid #424242;
+  padding-bottom: 10px;
+}
+
+.logoImage {
+  height: 70px;
+}
+
+.leaveBtn {
+  margin-top: 20px;
+  background: #fed709;
+  width: 100%;
+}
+
+.CodeMirror {
+  min-height: calc(100vh - 20px);
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
+}
